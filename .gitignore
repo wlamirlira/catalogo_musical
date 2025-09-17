@@ -1,25 +1,16 @@
-# Python/Django
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 *.egg-info/
 .eggs/
-
-# Virtualenv
 venv/
 .venv/
-
-# IDE/OS
 .vscode/
 .idea/
 .DS_Store
-
-# Django
-/static/
+static/
 media/
 db.sqlite3
-
-# Env
 .env
 .env.*
