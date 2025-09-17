@@ -1,11 +1,7 @@
 {
-  "functions": {
-    "api/django.py": {
-      "runtime": "python3.11"
-    }
-  },
-  "routes": [
-    { "src": "/static/(.*)", "dest": "/static/$1" },
-    { "src": "/(.*)", "dest": "api/django.py" }
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/django.py" }
   ]
 }
+
